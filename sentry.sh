@@ -3,9 +3,9 @@ export SENTRY_ORG=cosmos-1i
 VERSION=$(sentry-cli releases propose-version)
 
 # Create a release
-sentry-cli releases new -p lunar-pw $VERSION
+sentry-cli releases new -p lunar $VERSION
 
 # Associate commits with the release
-sentry-cli releases set-commits $VERSION
+sentry-cli releases set-commits --auto $VERSION
 
 sentry-cli releases deploys $VERSION new -e ENVIRONMENT
