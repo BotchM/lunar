@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@sentry/node": "^5.2.0",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "requests": "^0.2.2",
+    "subprocess": "^0.3.0"
+  },
+  "name": "lunar",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:BotchM/lunar.git",
+  "author": "Botch <mahmoud.shehata@weltel.org>",
+  "license": "MIT"
+}
